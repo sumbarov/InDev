@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:InDev">
+
+    <DataTemplate DataType="{x:Type local:SettingsDesignerItemViewModel}">
+        <Grid>
+            <Image IsHitTestVisible="False"
+                    Stretch="Fill"
+                    Source="../../Images/Box.png"
+                    Tag="setting" />
+<!--            <TextBlock Text="{Binding Id}"></TextBlock> -->
+        </Grid>
+    </DataTemplate>
+</ResourceDictionary>
